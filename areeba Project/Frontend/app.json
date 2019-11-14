@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "Computer Shop X",
+    "slug": "Frontend",
+    "privacy": "public",
+    "sdkVersion": "34.0.0",
+    "platforms": ["ios", "android", "web"],
+
+    "android": {
+      "package": "com.computerx.areebaproject"
+    },
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.computerx.areebaproject"
+    }
+  }
+}
